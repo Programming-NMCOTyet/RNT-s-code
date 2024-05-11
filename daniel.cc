@@ -21,6 +21,7 @@ int posicionar(){
         if(aux2->izq != NULL){
 
         aux2 = aux2->izq;
+            posicionar();
 
         }else{    
             aux2->izq  = aux;
